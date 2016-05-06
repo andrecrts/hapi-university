@@ -18,17 +18,18 @@
   },
   "homepage": "https://github.com/hapijs/university",
   "dependencies": {
+    "bcrypt": "^0.8.6",
     "hapi": "12.x.x",
+    "hapi-auth-basic": "^4.1.0",
     "hoek": "3.x.x"
   },
   "scripts": {
-  "test": "./node_modules/lab/bin/lab  -c   -v -S",
+    "test": "./node_modules/lab/bin/lab  -c   -v -S",
     "test-cover": "./node_modules/lab/bin/lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html",
-    "start": "node lib/index.js"
+    "start": "node lib/start.js"
   },
   "devDependencies": {
     "code": "2.x.x",
     "lab": "8.x.x"
   }
-
 }

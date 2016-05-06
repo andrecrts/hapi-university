@@ -1,0 +1,12 @@
+{
+	"andre":{ 
+        "password": "$2a$04$2myZL9hP2w9R3NtTgJPIR.5p2kVbAKStlAUr4YjvK7UulXYkfjfMe",
+        "name": "andre Cortes",
+        "id": "2133d334"
+    },
+    "john":{ 
+        "password": "$2a$04$2myZL9hP2w9R3NtTgJPIR.5p2kVbAKStlAUr4YjvK7UulXYkfjfMe",
+        "name": "John Doe",
+        "id": "2133d32a"
+    }
+}
