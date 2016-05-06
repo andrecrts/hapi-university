@@ -22,6 +22,8 @@
     "hoek": "3.x.x"
   },
   "scripts": {
+  "test": "./node_modules/lab/bin/lab  -c   -v -S",
+    "test-cover": "./node_modules/lab/bin/lab -c -r html -o ./test/artifacts/coverage.html && open ./test/artifacts/coverage.html",
     "start": "node lib/index.js"
   },
   "devDependencies": {
