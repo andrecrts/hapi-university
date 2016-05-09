@@ -24,6 +24,7 @@
     "hapi": "12.x.x",
     "hapi-auth-basic": "^4.1.0",
     "hoek": "3.x.x",
+    "inert": "^4.0.0",
     "vision": "^4.1.0"
   },
   "scripts": {
